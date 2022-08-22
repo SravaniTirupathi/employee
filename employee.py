@@ -1,7 +1,7 @@
 import os
 def write():
     f=open("data.txt","a")
-    print("empl_id,employee_name,designation,salary")
+    print("empl_id,employee_name,designation,salary(in thousands)")
     s=input("enter comma seperated data:")
     f.write(s+"\n")
     f.close()

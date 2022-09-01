@@ -11,7 +11,7 @@ def delete():
     if os.stat("data.txt").st_size == 0:
         print("deletion cannot be performed on empty file...")
     else:
-        id=input("enter employee_id to dalete :")
+        id=input("enter employee_id to delete :")
         for line in f.readlines():
             if id not in line:
                 t.write(line)    
